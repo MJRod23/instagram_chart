@@ -53,7 +53,7 @@ class Post(Base):
 
 class MediaType(enum.Enum):
     png = "png"
-    jpg = "jpg"
+    jpgitg = "jpg"
     gif = "gif"
 
 class Media(Base):
