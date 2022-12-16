@@ -32,6 +32,7 @@ Base = declarative_base()
 
 ## Draw from SQLAlchemy base
 
+
 class User(Base):
     __tablename__ = 'user'
     id = Column(Integer, primary_key=True)
@@ -72,6 +73,8 @@ class Comment(Base):
 
     def to_dict(self):
         return {}
+
+
 
 
 render_er(Base, 'diagram.png')
